@@ -14,6 +14,10 @@
   background-color: #F6ECE0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -90,6 +94,7 @@ body {
   display: flex;
   flex-direction: column;
   width: 40vw;
+  margin-bottom: 50vh;
   padding: 5%;
   margin-top: 25vh;
   border-radius: 0px 30px 30px 0px;
@@ -112,13 +117,18 @@ body {
   margin: 0;
 }
 
+.about-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50vh;
+}
+
 
 .text-container {
   display: flex;
   flex-direction: column;
   width: 40vw;
   padding: 5%;
-  margin-top: 10vh;
   border-radius: 0px 30px 30px 0px;
   background: #1B1B1B;
   color: #EBEBEB;
@@ -140,6 +150,31 @@ body {
   font-weight: 100;
 }
 
+.picture-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 30px;
+  border: 3px solid #581BBA;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 400px;
+  max-height: 400px;
+
+}
+
 @media (max-width: 1025px) {
 
   .intro-container h1 {
@@ -153,21 +188,37 @@ body {
   .intro-container {
     width: 50vw;
   }
+
+  .text-container {
+    width: 70vw;
+  }
+
+  .about-container {
+    display: flex;
+    flex-wrap: wrap-reverse;
+  }
+
+  .picture-container {
+    width: 100%;
+    margin: 100px;
+  }
+
 }
 
 @media (max-width: 570px) {
 
   .intro-container h1 {
-    font-size: 30px;
+    font-size: 40px;
   }
 
   .intro-container h2 {
-    font-size: 24px;
+    font-size: 35px;
   }
 
   .intro-container {
     width: 50vw;
   }
+
 
 }
 
@@ -178,7 +229,7 @@ body {
 
   .navbar {
     width: 50px;
-    height: 420px;
+    height: 400px;
   }
 
   .navbar-text {
@@ -205,6 +256,18 @@ body {
     list-style-type: none;
     padding: 0;
     margin: 0;
+  }
+
+  .text-container h2 {
+    font-size: 30px;
+  }
+
+  .text-container p {
+    font-size: 20px;
+  }
+
+  .picture-container {
+    margin: 50px;
   }
 
 }
