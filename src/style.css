@@ -42,7 +42,7 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  background-color: #F89A77;
+  background: linear-gradient(180deg, #F89A77 0%, #581BBA 100%);
   border-radius: 30px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   width: 70px;
@@ -175,6 +175,44 @@ body {
 
 }
 
+.skills-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  margin: 100px;
+  border-radius: 30px;
+  background: #F89A77;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.skills-container h2 {
+  font-size: 40px;
+  font-weight: 100;
+  color: #1B1B1B;
+  text-decoration: underline;
+  text-decoration-color: #EBEBEB;
+  text-decoration-thickness: 3px;
+  text-underline-position: under;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.skill {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  height: 200px;
+  color: #1B1B1B;
+}
+
 @media (max-width: 1025px) {
 
   .intro-container h1 {
@@ -205,6 +243,19 @@ body {
 
 }
 
+@media (max-width: 800px) {
+
+  .skill img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .intro-container {
+    width: 60vw;
+  }
+
+}
+
 @media (max-width: 570px) {
 
   .intro-container h1 {
@@ -214,11 +265,6 @@ body {
   .intro-container h2 {
     font-size: 35px;
   }
-
-  .intro-container {
-    width: 50vw;
-  }
-
 
 }
 
@@ -268,6 +314,15 @@ body {
 
   .picture-container {
     margin: 50px;
+  }
+
+  .skills-container {
+    margin: 50px;
+  }
+
+  .skill img {
+    width: 80px;
+    height: 80px;
   }
 
 }
