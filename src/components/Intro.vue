@@ -1,6 +1,3 @@
-<script setup>
-</script>
-
 <template>
     <div class="intro-container">
         <h2>Hi, my name is</h2>

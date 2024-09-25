@@ -1,4 +1,3 @@
-<script setup></script>
 <template>
     <div class="about-container">
         <div class="text-container">
