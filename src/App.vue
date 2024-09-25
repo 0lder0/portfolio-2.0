@@ -4,6 +4,7 @@ import Intro from './components/Intro.vue';
 import About from './components/About.vue';
 import Skills from './components/Skills.vue';
 import Projects from './components/Projects.vue';
+import Contact from './components/Contact.vue';
 </script>
 
 <template>
@@ -12,4 +13,5 @@ import Projects from './components/Projects.vue';
   <About id="about"/>
   <Skills id="skills"/>
   <Projects id="projects"/>
+  <Contact id="contact"/>
 </template>
