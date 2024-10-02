@@ -70,12 +70,12 @@
     <div class="projects-container">
         <div class="text-container" style="margin-top: 60px; background-color: #F89A77; color: #1b1b1b;">
             <h2 style="color: #581BBA;   text-decoration-color: #1b1b1b;">Meekarud MTÜ</h2>
-            <p>First internship. Client asked for a representing website for their non-profit organization. I worked on navigation, footer, main page and members page. Also added animations (WordPress, CSS) <a>(DISCLAIMER: Currently navbar not working)</a></p>
+            <p>First internship. Client asked for a representing website for their non-profit organization. I worked on navigation, footer, main page and members page. Also added animations (WordPress, CSS)</p>
         </div>
         <div class="project-image-container">
                 <img src="../assets/images/meekarud.png" />
                 <div class="project-links">
-                    <a target="_blank" href="https://meekarud.ee"><img src="../assets/icons/link.png" /></a>
+                    <a target="_blank" href="https://saartauri.ikt.khk.ee/wordpress/"><img src="../assets/icons/link.png" /></a>
                 </div>
             </div>
     </div>
