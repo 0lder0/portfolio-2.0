@@ -20,6 +20,10 @@
                 <p>React</p>
             </div>
             <div class="skill">
+                <img src="../assets/icons/vue.png" />
+                <p>Vue</p>
+            </div>
+            <div class="skill">
                 <img src="../assets/icons/php.png" />
                 <p>PHP</p>
             </div>
