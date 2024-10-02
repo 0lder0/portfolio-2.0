@@ -11,7 +11,7 @@
             <p>Expense tracking app where user can enter the name of the item they wish to purchase, how much it will cost and date of purchase (Node.JS, React, CSS)</p>
         </div>
             <div class="project-image-container">
-                <img src="../assets/images/ReactExpenses.png" />
+                <img src="../assets/images/reactExpenses.png" />
                 <div class="project-links">
                     <a target="_blank" href="https://github.com/0lder0/expenses"><img src="../assets/icons/github.png" /></a>
                     <a target="_blank" href="https://expenses-react-project.vercel.app"><img src="../assets/icons/link.png" /></a>
