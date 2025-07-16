@@ -45,18 +45,6 @@
     </div>
     <div class="projects-container">
         <div class="text-container" style="margin-top: 60px;">
-            <h2>Pixel Art</h2>
-            <p>Project I made during 2nd year of school, where I made a website to introduce my hobby pixel art (HTML, CSS, JavaScript)</p>
-        </div>
-        <div class="project-image-container">
-                <img src="../assets/images/pixelArt.png" />
-                <div class="project-links">
-                    <a target="_blank" href="https://olderliliiann.ikt.khk.ee/veebiarendus/Hobi/"><img src="../assets/icons/link.png" /></a>
-                </div>
-            </div>
-    </div>
-    <div class="projects-container">
-        <div class="text-container" style="margin-top: 60px;">
             <h2>Gallery Project</h2>
             <p>A website I made to show some pictures I have taken during 2017-2024. It was another great chance to combine my two hobbies: coding and photography (React, SCSS)</p>
         </div>
@@ -69,13 +57,25 @@
     </div>
     <div class="projects-container">
         <div class="text-container" style="margin-top: 60px; background-color: #F89A77; color: #1b1b1b;">
-            <h2 style="color: #581BBA;   text-decoration-color: #1b1b1b;">Meekarud MTÜ</h2>
-            <p>First internship. Client asked for a representing website for their non-profit organization. I worked on navigation, footer, main page and members page. Also added animations (WordPress, CSS)</p>
+            <h2 style="color: #581BBA;   text-decoration-color: #1b1b1b;">Internship at Meekarud MTÜ</h2>
+            <p>Client asked for a representing website for their non-profit organization. I worked on navigation, footer, main page and members page. Also added animations (WordPress, CSS)</p>
         </div>
         <div class="project-image-container">
                 <img src="../assets/images/meekarud.png" />
                 <div class="project-links">
-                    <a target="_blank" href="https://saartauri.ikt.khk.ee/wordpress/"><img src="../assets/icons/link.png" /></a>
+                    <a target="_blank" href="https://meekarud.ee"><img src="../assets/icons/link.png" /></a>
+                </div>
+            </div>
+    </div>
+    <div class="projects-container">
+        <div class="text-container" style="margin-top: 60px; background-color: #F89A77; color: #1b1b1b;">
+            <h2 style="color: #581BBA;   text-decoration-color: #1b1b1b;">Internship at Register OÜ</h2>
+            <p>Customized WordPress modules and templates for automated website generation. Built request-based e-commerce features using WooCommerce plugins. Worked with databases, bug fixing, and team tools like Jira and Bitbucket.</p>
+        </div>
+        <div class="project-image-container">
+                <img src="../assets/images/IR-logo.jpeg" style="padding-bottom: 10px; border-radius: 20%;"/>
+                <div class="project-links">
+                    <a target="_blank" href="https://www.inforegister.ee"><img src="../assets/icons/link.png" /></a>
                 </div>
             </div>
     </div>
