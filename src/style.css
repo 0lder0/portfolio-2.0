@@ -43,7 +43,7 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(180deg, #F89A77 0%, #581BBA 100%);
+  background: #F89A77;
   border-radius: 30px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   width: 70px;
