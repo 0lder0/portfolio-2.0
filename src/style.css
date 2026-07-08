@@ -99,10 +99,9 @@ body {
 .intro-container {
   display: flex;
   flex-direction: column;
-  width: 40vw;
-  margin-bottom: 50vh;
+  flex: 1 1 10vw;
+  min-width: 320px;
   padding: 5%;
-  margin-top: 25vh;
   border-radius: 0px 30px 30px 0px;
   background: #1B1B1B;
   color: #EBEBEB;
@@ -111,6 +110,30 @@ body {
   opacity: 0;
   transform: translateX(-50px);
   animation: fadeInSlide 1.5s ease-out forwards;
+}
+
+.intro-layout {
+  display: flex;
+  align-items: stretch;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin-top: 25vh;
+  margin-bottom: 50vh;
+  padding-right: 5%;
+}
+
+.wave-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1 1 260px;
+  min-width: 240px;
+}
+
+.wave-container img {
+  width: min(100%, 420px);
+  height: auto;
+  display: block;
 }
 
 @keyframes fadeInSlide {
@@ -332,7 +355,11 @@ body {
   }
 
   .intro-container {
-    width: 50vw;
+    flex-basis: 50vw;
+  }
+
+  .wave-container {
+    flex-basis: 260px;
   }
 
   .text-container {
@@ -342,6 +369,7 @@ body {
   .about-container {
     display: flex;
     flex-wrap: wrap-reverse;
+    margin-top: -30vh;
   }
 
   .picture-container {
@@ -372,7 +400,11 @@ body {
   }
 
   .intro-container {
-    width: 60vw;
+    flex-basis: 60vw;
+  }
+
+  .wave-container {
+    flex-basis: 220px;
   }
 
 }
@@ -389,6 +421,21 @@ body {
 
   .text-container-projects h2 {
     font-size: 30px;
+  }
+
+  .intro-layout {
+    margin-top: 18vh;
+    padding-right: 0;
+  }
+
+  .intro-container,
+  .wave-container {
+    flex-basis: 100%;
+    min-width: 0;
+  }
+
+  .wave-container img {
+    width: min(80vw, 320px);
   }
 
 }
